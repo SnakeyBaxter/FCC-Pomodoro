@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Pomodoro Clock</title>
+<link href="pomodoro.css" rel='stylesheet' type='text/css'>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+
+<div id="wrapper">
+  
+    <div id="input">
+		<h1>Pomodoro Clock:</h1>
+		<label for="userTime">Please input time in minutes:</label>
+		<input type="text" id="userTime" />
+    </div>	
+    
+
+    
+	<div id="panel">
+	    <div id="clock_display"></div>
+        
+	
+    
+	<div id="buttons">
+		<button id="reset">Reset</button>
+		<button id="set">Set</button>
+		<button id="stop">Stop</button>
+		<progress id="progressBar" value="100" max="100"></progress>
+        <!-- <div id='prog'>
+            <div id='progress'></div>
+	    </div> -->
+	</div>
+		<div id="end">
+    <p id="finish"></p>
+	</div>
+	</div>
+
+</div>
+
+<script src="pomodoro.js"></script>
+
+</body>
+</html>

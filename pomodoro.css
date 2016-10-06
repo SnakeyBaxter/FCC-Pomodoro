@@ -1,0 +1,125 @@
+@import url(https://fonts.googleapis.com/css?family=Orbitron);
+
+#wrapper{
+	position: relative;
+	background-color: #a0bed9;
+	padding-bottom: 30px;
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	
+}
+
+h1{
+	font-family: sans-serif;
+	color: #13402b;
+	font-size: 30px;
+	
+	
+}
+p, label{
+	font-family: sans-serif;
+	font-size: 15px;
+	color: #13402b;
+}
+
+#input{
+	margin-left: 10px;
+	margin-bottom: 10px;
+}
+
+#userTime{
+	color: #ff530d;
+	font-weight: bold;
+	border: 2px solid #147373;
+}
+
+#panel{
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #000000;
+	width: 300px;
+	height: 100px;
+	padding: 40px;
+	border: solid 10px #147373;
+}
+
+#clock_display{
+	font-family: Orbitron;
+	font-size: 54px;
+	color: #3399ff;
+	background-color: #000000;
+	text-align: center;
+}
+
+#buttons {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	background-color: #147373;
+	padding-top: 10px;
+	max-width: 100%;
+	text-align: center;
+}
+/* #progressBar:: -moz-progress-bar { 
+    background: #0063a6; 
+} */
+
+
+progressBar::-webkit-progress-bar {
+    margin-top: 15px;
+    width: 280px;
+    color: #ff530d;
+    border: 1px solid #ff530d;
+    background: #fff;
+}
+progressBar::-webkit-progress-value {
+    margin-top: 15px;
+    width: 280px;
+    color: #ff530d;
+    border: 1px solid #ff530d;
+    background: #fff;
+}
+progressBar::-moz-progress-bar {
+    margin-top: 15px;
+    width: 280px;
+    color: #ff530d;
+    border: 1px solid #ff530d;
+    background: #fff;
+}
+
+#progressBar{
+	margin-top: 15px;
+    width: 280px;
+    color: #ff530d;
+    border: 1px solid #ff530d;
+    background: #fff;
+}
+
+#end{
+	float: right;
+	width: 150px;
+	height: 150px;
+	background-color: #000000;
+	text-align: center;
+	padding: 20px;
+	border-style: solid;
+    border-radius: 50%;
+    border-color: #ff530d;
+    border-width: 3px;
+}
+
+#finish {
+	margin-top: 40px;
+	font-family: sans-serif;
+	font-size: 40px;
+	color: #3399ff;
+}
+
+ /*insert media query for smallest screens 360px and less*/
+@media screen and (max-width: 360px){
+#panel{
+	width: 200px;
+}	
+}
